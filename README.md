@@ -4,7 +4,7 @@
 
 A  machine learning system that detects fraudulent financial transactions in real-time with 99.7% accuracy. Built using advanced ensemble methods and trained on 1,048,567 transactions, this system helps financial institutions prevent fraud before it happens.
 
-### Live Demo: https://fraud-detection-system-x.streamlit.app/
+### Live Demo: https://frauddetectionusingai.streamlit.app/
 
 ##  Key Features
 
@@ -52,8 +52,8 @@ A  machine learning system that detects fraudulent financial transactions in rea
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/parvath-reddy/fraud-detection-system
-cd fraud-detection-system
+git clone https://github.com/SUHAASSHETTY/Fraud_Detection_Using_AI
+cd Fraud_Detection_Using_AI
 ```
 
 2. **Install dependencies**
@@ -63,7 +63,7 @@ pip install -r requirements.txt
 
 3. **Run the application**
 ```bash
-streamlit run fraud_detection.py
+streamlit run app.py
 ```
 
 4. **Access the app**
@@ -119,4 +119,3 @@ Ensemble method combining:
 - GridSearchCV with 5-fold cross-validation
 - 200+ parameter combinations tested
 - Bayesian optimization for final tuning
-
