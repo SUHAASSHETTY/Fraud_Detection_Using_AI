@@ -96,6 +96,7 @@ fraud-detection-ml/
 ├── fraud_detection_pipeline.pkl # Trained ML model
 ├── analysis_model.ipynb         # Model training notebook
 ├── README.md                    # Project documentation
+
 ```
 
 ##  Model Training Process
@@ -118,3 +119,4 @@ Ensemble method combining:
 - GridSearchCV with 5-fold cross-validation
 - 200+ parameter combinations tested
 - Bayesian optimization for final tuning
+
